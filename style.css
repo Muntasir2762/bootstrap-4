@@ -1,5 +1,50 @@
-.bg-image{
-    background-image: url('https://placehold.co/1290x500');
-    height: 500px;
-    width: 1290px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-responsive{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: #F85509;
+}
+
+.hero-content p{
+    font-size: 1.5rem;
+    color: #9f3d80;
+    margin-bottom:30px;
+}
+
+.btn-custom{
+    text-decoration: none;
+    background-color: #F85509;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #9f3d80;
+    transition: background-color 0.5s ease;
+}
+
+.btn-custom:hover{
+    background-color: green;
+    color: white;
 }
